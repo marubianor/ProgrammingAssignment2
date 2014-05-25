@@ -4,7 +4,7 @@
 ## Write a short comment describing this function
 
 makeCacheMatrix <- function(x = matrix()) {  require("MASS")
-  m_inverse <- NULL
+  m_inverse <- NULL ##Asigna el valor nulo a la funcion cuando tome valores indefinidos
   set <- function(y) {
     x <<- y
     m_inverse <<- NULL
